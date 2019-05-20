@@ -3,7 +3,7 @@ require "./vendor/autoload.php";
 use JonnyW\PhantomJs\Client;
 
 $video = $_GET['id'];
-if($video == ''){
+if($video == 'Ds2WfjAMT2g'){
 	echo "Where is the media ID?"; //https://openload.co/embed/7zLUwKrlQqCk  (The ID is "7zLUwKrlQqCk" in this case)
 	exit();
 }else{
